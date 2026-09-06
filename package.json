@@ -4,7 +4,7 @@
   "description": "Chrome extension integrating Stockfish chess engine for real-time position analysis, move evaluation, and intelligent suggestions. Built with TypeScript and modern architecture.",
   "type": "module",
   "scripts": {
-    "dev": "vite build --watch",
+    "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --ext .ts,.tsx --fix",

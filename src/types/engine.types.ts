@@ -49,7 +49,7 @@ export type EngineEventListener = (event: EngineEvent) => void;
 
 /** Default engine configuration */
 export const DEFAULT_ENGINE_CONFIG: EngineConfig = {
-  workerPath: '/bundles/app/js/vendor/jschessengine/stockfish.asm.1abfa10c.js',
+  workerPath: chrome.runtime.getURL('/engine/stockfish.js'),
   defaultDepth: 15,
   autoPlayDepth: 2,
 };

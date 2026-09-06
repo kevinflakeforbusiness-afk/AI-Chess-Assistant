@@ -1,29 +1,54 @@
+```
 # Dependencies
 node_modules/
 
-# Build output
+# Build artifacts
 dist/
+build/
+target/
 
-# IDE
+# Environment
+.env
+.env.local
+.env.*
+
+# Logs
+*.log
+
+# Editor/IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Logs
-*.log
-npm-debug.log*
-
-# Environment
-.env
-.env.local
-.env.*.local
-
-# Cache
-.eslintcache
-.prettiercache
-*.tsbuildinfo
+# Testing
+.mypy_cache/
+.pytest_cache/
+.nyc_output/
+istanbul/
+```
