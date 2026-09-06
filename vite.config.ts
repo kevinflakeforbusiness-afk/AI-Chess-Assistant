@@ -18,4 +18,11 @@ export default defineConfig({
     outDir: 'dist',
     sourcemap: process.env.NODE_ENV === 'development',
   },
+  server: {
+    port: 5173,
+    strictPort: true,
+    hmr: {
+      port: 5173,
+    },
+  },
 });
